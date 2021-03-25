@@ -13,19 +13,22 @@ print('\n\n')#dos saltos de linea
 dato1 = 5
 dato2 = 10
 
-print('dato1 es igual a dato2: ', dato1 == dato2)
-print('dato1 es diferente a dato2: ', dato1 != dato2)
-print('dato1 es mayor a dato2: ', dato1 > dato2)
-print('dato1 es menor a dato2: ', dato1 < dato2)
-print('dato1 es mayor o igual a dato2: ', dato1 >= dato2)
-print('dato1 es menor o igual a dato2: ', dato1 <= dato2)
+# simbolo de menor (<)
+#simbolo de mayor (>)
+
+print('dato1 es igual a dato2: ', dato1 == dato2) #false
+print('dato1 es diferente a dato2: ', dato1 != dato2) #true
+print('dato1 es mayor a dato2: ', dato1 > dato2) #false
+print('dato1 es menor a dato2: ', dato1 < dato2) #true
+print('dato1 es mayor o igual a dato2: ', dato1 >= dato2) #false
+print('dato1 es menor o igual a dato2: ', dato1 <= dato2) #true
 
 print('\n\n')
 
 d = True
 f = False
 
-print('d es igual a verdader y f es igual a verdadeo: ', d and f) #las dos varaible deben ser para que la condicion retorne como true
-print('d es igual a verdader y f es igual a verdadeo: ', d or f) #si una de las dos variables es verdadera regresara true y si no retornara falso
+print('d es igual a verdadero y f es igual a verdadeo: ', d and f) #las dos varaible deben ser para que la condicion retorne como true
+print('d es igual a verdadero y f es igual a verdadeo: ', d or f) #si una de las dos variables es verdadera regresara true y si no retornara falso
 print('f es verdadera: ', not f) #retornara verdadero debido a que la palabra reservada not invierte los valores reales u originales respecto al tipo de dato booleano
 print('d es verdadera: ', not d) #d es verdadera pero cambiara a falso
