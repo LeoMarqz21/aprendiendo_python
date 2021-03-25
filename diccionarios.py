@@ -15,20 +15,20 @@ print(rs)
 
 lista_dic = [
   {
-  'nombre':'holi',
-  'apellidos':'que tal',
+  'nombre':'Ale',
+  'apellidos':'turcios',
   'edad':22,
   'genero':'M'
 },
 {
-  'nombre':'yo',
-  'apellidos':'mero',
+  'nombre':'ricky',
+  'apellidos':'malo',
   'edad':21,
   'genero':'F'
 },
 {
-  'nombre':'comio',
-  'apellidos':'alguien',
+  'nombre':'tu',
+  'apellidos':'yo',
   'edad':1,
   'genero':'F'
 }
@@ -36,7 +36,7 @@ lista_dic = [
 
 print()
 for dic in lista_dic:
-  print(dic, "\n")
+  print(dic.get('nombre'), "\n")
 
 
 
