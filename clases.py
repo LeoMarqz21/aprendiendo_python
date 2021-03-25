@@ -21,4 +21,4 @@ print(rs)
 
 saludame.saludar()
 saludame.setNombre('marqz') #modificamos el nombre que habiamos dado anteriormente
-saludame.saludar()# aqui ya no dira hola leo, dira hola marqz.
+saludame.saludar() # aqui ya no dira hola leo, dira hola marqz.
